@@ -1,4 +1,4 @@
-package ATM_Interface_task01;
+package ATM_Interface_task03;
 
 import java.util.ArrayList;
 
@@ -23,13 +23,7 @@ public class Bank {
         return null;
     }
 
-//    public Account authenticate(String userId, int pin) {
-//        Account account = findAccount(userId);
-//        if (account != null && account.verifyPin(pin) && account.isActive()) {
-//            return account;
-//        }
-//        return null;
-//    }
+
 
     //Account InActive
     public String authenticateStatus(String userId, int pin) {

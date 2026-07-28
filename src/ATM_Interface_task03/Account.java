@@ -1,4 +1,4 @@
-package ATM_Interface_task01;
+package ATM_Interface_task03;
 
 public class Account {
     private String userId;
@@ -40,9 +40,18 @@ public class Account {
     }
 
     public String withdraw(double amount) {
-        if (!isActive()) return "ACCOUNT_INACTIVE";
-        if (amount <= 0) return "INVALID_AMOUNT";
-        if (balance < amount) return "INSUFFICIENT_FUNDS";
+
+        if (!isActive()) {
+            return "ACCOUNT_INACTIVE";
+        }
+
+        if (amount <= 0) {
+            return "INVALID_AMOUNT";
+        }
+
+        if (balance < amount) {
+            return "INSUFFICIENT_FUNDS";
+        }
 
         balance -= amount;
         return "SUCCESS";

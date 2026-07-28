@@ -1,4 +1,4 @@
-package ATM_Interface_task01;
+package ATM_Interface_task03;
 
 import java.util.Scanner;
 
@@ -31,11 +31,12 @@ public class ATM {
 
     public void showMenu() {
         System.out.println("\n===== ATM Menu =====");
-        System.out.println("1. Transaction History");
+        System.out.println("1. Balance Enquiry");
         System.out.println("2. Withdraw");
         System.out.println("3. Deposit");
         System.out.println("4. Transfer");
-        System.out.println("5. Quit");
+        System.out.println("5. Transaction History");
+        System.out.println("6. Quit");
     }
 
     public int getUserChoice() {
@@ -54,10 +55,14 @@ public class ATM {
 
     public boolean processChoice(int choice, Bank bank, Account currentAccount) {
         switch (choice) {
+
+
             case 1 -> {
-                Transaction.displayTransactionHistory();
-                return true;
-            }
+
+                    System.out.println("\n========== Balance Enquiry ==========");
+                    System.out.printf("Current Balance : ₹%.2f%n", currentAccount.getBalance());
+                    return true;
+                }
 
             case 2 -> {
                 double withdrawAmount = getAmount();
@@ -114,8 +119,11 @@ public class ATM {
                 }
                 return true;
             }
-
             case 5 -> {
+                Transaction.displayTransactionHistory();
+                return true;
+            }
+            case 6 -> {
                 System.out.println("Thank you for using ATM Interface. Goodbye!");
                 return false;
             }
@@ -125,7 +133,8 @@ public class ATM {
                 return true;
             }
         }
-    }
+}
+
 
     private int readIntInput() {
         while (true) {

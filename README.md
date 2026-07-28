@@ -15,6 +15,7 @@ Programming (OOP) principles and provides a menu-driven interface for users to p
 To design and develop a console-based ATM application that allows users to perform banking transactions such as:
 
 - Login using User ID and PIN
+- Balance Enquiry
 - Deposit Money
 - Withdraw Money
 - Transfer Money
@@ -154,22 +155,29 @@ Developed as part of the **OASIS Infobyte Java Development Internship**.
 
 ---
 
-## 📸 Application Screenshots
+## 📷 Application Screenshots
 
 ### Login Screen
 
 ![Login Screen](screenshots/login.png)
 
-### ATM Main Menu
+### ATM Main Menu 
+![ATM Main Menu](screenshots/menu.png)
 
-![ATM Menu](screenshots/menu.png)
+### Balance Enquiry 
+![Balance Enquiry](screenshots/balanceEnquiry.png)
 
-### Transaction History
+### Deposit 
+![Deposit](screenshots/deposit.png)
 
-![Transaction History](screenshots/transaction-history.png)
+### Withdraw 
+![Withdraw](screenshots/withdraw.png)
 
-### Successful Transfer
+### Transfer 
+![Transfer](screenshots/transfer.png)
 
-![Transfer](screenshots/transfer-success.png)
+### Transaction History 
+![Transaction History](screenshots/transaction.png)
 
-
+### Quit 
+![Quit](screenshots/quitProcess.png)
