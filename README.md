@@ -165,19 +165,21 @@ Developed as part of the **OASIS Infobyte Java Development Internship**.
 ![ATM Main Menu](screenshots/menu.png)
 
 ### Balance Enquiry 
-![Balance Enquiry](screenshots/balanceEnquiry.png)
+![Balance Enquiry](screenshots/balance_enquiry.png)
 
 ### Deposit 
 ![Deposit](screenshots/deposit.png)
 
 ### Withdraw 
-![Withdraw](screenshots/withdraw.png)
+![Withdraw](screenshots/withdrawl.png)
 
 ### Transfer 
 ![Transfer](screenshots/transfer.png)
 
 ### Transaction History 
-![Transaction History](screenshots/transaction.png)
+![Transaction History](screenshots/transaction_txn_1.png)
+
+![Transaction History](screenshots/txn_2.png)
 
 ### Quit 
-![Quit](screenshots/quitProcess.png)
+![Quit](screenshots/quit.png)
